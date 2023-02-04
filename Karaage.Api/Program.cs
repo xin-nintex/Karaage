@@ -22,5 +22,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-Console.WriteLine("Open");
 app.Run();
