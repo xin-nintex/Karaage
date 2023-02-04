@@ -30,7 +30,7 @@ public class WeatherForecastController : ControllerBase
             .ToArray();
     }
 
-    [HttpGet]
+    [HttpPost]
     public int GetDay()
     {
         return 3;
