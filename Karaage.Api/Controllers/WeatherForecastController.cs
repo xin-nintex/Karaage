@@ -6,16 +6,20 @@ namespace Karaage.Api.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
-    private static readonly string[] Summaries = new[]
-    {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+    private static readonly string[] Summaries;
 
     private readonly ILogger<WeatherForecastController> _logger;
 
     public WeatherForecastController(ILogger<WeatherForecastController> logger)
     {
         _logger = logger;
+    }
+
+    static WeatherForecastController()
+    {
+        Summaries = new[] {
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
