@@ -1,7 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
 builder.WebHost
-    .UseKestrel()
     .UseIISIntegration();
 // Add services to the container.
 
