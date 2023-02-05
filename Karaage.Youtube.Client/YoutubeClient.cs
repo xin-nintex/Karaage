@@ -1,10 +1,14 @@
 ﻿using Google.Apis.Services;
 using Google.Apis.YouTube.v3;
+using Karaage.Youtube.Client.Configuration;
+using Karaage.Youtube.Client.Contracts;
+using Karaage.Youtube.Client.Exceptions;
+using Karaage.Youtube.Client.Models;
 using Microsoft.Extensions.Options;
 
 namespace Karaage.Youtube.Client;
 
-public class YoutubeClient
+public class YoutubeClient : IYoutubeClient
 {
     private readonly YouTubeService _youTubeService;
     public YoutubeClient(IOptions<YoutubeClientOption> options)
@@ -32,22 +36,4 @@ public class YoutubeClient
             item.Statistics.LikeCount
         );
     }
-}
-
-public record VideoStats(
-    string Id, 
-    ulong? CommentCount, 
-    ulong? DislikeCount, 
-    ulong? FavoriteCount, 
-    ulong? ViewCount,
-    ulong? LikeCount);
-
-
-public class YoutubeClientException : Exception
-{
-}
-
-public class YoutubeClientOption
-{
-    public string ApiKey { get; set; } = null!;
 }

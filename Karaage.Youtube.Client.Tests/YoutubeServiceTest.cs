@@ -1,3 +1,4 @@
+using Karaage.Youtube.Client.Configuration;
 using Microsoft.Extensions.Options;
 using Moq;
 
