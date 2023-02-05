@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3a65ceaf_002D5f8d_002D4849_002D8eae_002D49c532344985/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="YoutubeService_Should_GetVideoById" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3D70CAF8-2388-4854-968F-8E9744B64AC6::net7.0::Karaage.Youtube.Client.Tests.Tests.YoutubeService_Should_GetVideoById&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ae8229d7_002De53b_002D4979_002Db81b_002D18b170728852/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="YoutubeService_Should_GetVideoById #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3D70CAF8-2388-4854-968F-8E9744B64AC6::net7.0::Karaage.Youtube.Client.Tests.Tests.YoutubeService_Should_GetVideoById&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

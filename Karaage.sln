@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karaage.Api", "Karaage.Api\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karaage.Youtube.Service", "Karaage.Youtube.Service\Karaage.Youtube.Service.csproj", "{877D1DE1-EF76-429C-8A28-625C4D7586A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karaage.Youtube.Client", "Karaage.Youtube.Client\Karaage.Youtube.Client.csproj", "{66F54859-2E37-40DF-8290-84C7EFC20FE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AA9098B3-9308-4842-BA27-DFB90FC039C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karaage.Youtube.Client.Tests", "Karaage.Youtube.Client.Tests\Karaage.Youtube.Client.Tests.csproj", "{3D70CAF8-2388-4854-968F-8E9744B64AC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,16 @@ Global
 		{877D1DE1-EF76-429C-8A28-625C4D7586A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{877D1DE1-EF76-429C-8A28-625C4D7586A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{877D1DE1-EF76-429C-8A28-625C4D7586A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F54859-2E37-40DF-8290-84C7EFC20FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F54859-2E37-40DF-8290-84C7EFC20FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F54859-2E37-40DF-8290-84C7EFC20FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F54859-2E37-40DF-8290-84C7EFC20FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D70CAF8-2388-4854-968F-8E9744B64AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D70CAF8-2388-4854-968F-8E9744B64AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D70CAF8-2388-4854-968F-8E9744B64AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D70CAF8-2388-4854-968F-8E9744B64AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D70CAF8-2388-4854-968F-8E9744B64AC6} = {AA9098B3-9308-4842-BA27-DFB90FC039C4}
 	EndGlobalSection
 EndGlobal
